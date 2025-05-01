@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f1ea; 
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+  }
+  
+  .form-card {
+    background-color: #ffffff;
+    max-width: 600px;
+    width: 100%;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+  }
+  
+  .form-card h2 {
+    margin-bottom: 25px;
+    text-align: center;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background-color: #f9fafb;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus,
+  textarea:focus,
+  select:focus {
+    border-color: #2563eb;
+    outline: none;
+  }
+  
+  textarea {
+    height: 80px;
+    resize: vertical;
+  }
+  
+  .gender-options {
+    margin-top: 10px;
+  }
+  
+  .gender-options label {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 400;
+  }
+  
+  input[type="submit"] {
+    margin-top: 25px;
+    background-color: rgb(60, 175, 60);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1e40af;
+  }
+  
+  
